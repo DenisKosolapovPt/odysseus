@@ -7,9 +7,8 @@ search:
   formats:
     - html
     - json
+  default_doi_resolver: 'oadoi.org'
 
 doi_resolvers:
   oadoi.org: 'https://oadoi.org/'
   sci-hub.se: 'https://sci-hub.se/'
-
-default_doi_resolver: 'oadoi.org'
